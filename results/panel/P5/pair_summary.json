@@ -1,0 +1,121 @@
+{
+  "pair": "P5",
+  "traits": [
+    "AN",
+    "ASD"
+  ],
+  "r_e": 0.09454,
+  "predicted_gate_intercept": 0.0642872,
+  "fitted_aggregate_intercept": 0.041385066539991855,
+  "n_blocks": 2495,
+  "n_processed": 2458,
+  "n_reported": 73,
+  "pct_reported": 2.93,
+  "mean_rho_hat": 0.21624329452054794,
+  "aggregate_slope": 0.7271399775065749,
+  "mean_rho_corrected_aggregate": 0.24047395740798064,
+  "n_floored": 52,
+  "mean_ci_width": 1.356031369863014,
+  "mean_ci_width_corrected": 2.3680907103512316,
+  "diagnostic": {
+    "usable": false,
+    "C1_stability": {
+      "passed": false,
+      "slope_fold_change": 4.699521819486194,
+      "threshold": 1.25
+    },
+    "C2_floor": {
+      "passed": false,
+      "per_trait": {
+        "AN": true,
+        "ASD": false
+      },
+      "pooled_z": {
+        "AN": 9.056865899758598,
+        "ASD": -0.20394129499171257
+      },
+      "frac_below": {
+        "AN": 0.1506849315068493,
+        "ASD": 0.6575342465753424
+      },
+      "threshold_z": 5.0,
+      "threshold_frac_below": 0.4
+    },
+    "C3_signal": {
+      "passed": false,
+      "per_trait": {
+        "AN": true,
+        "ASD": false
+      },
+      "frac_null": {
+        "AN": 0.06322368421052632,
+        "ASD": 0.533888888888889
+      },
+      "threshold": 0.4
+    },
+    "failed_criteria": [
+      "C1 stability",
+      "C2 floor distance",
+      "C3 gate signal"
+    ],
+    "statement": "NOT APPLICABLE. Report the uncorrected estimate with the attenuation stated as a bound. Failed: C1 stability, C2 floor distance, C3 gate signal"
+  },
+  "signal": {
+    "alpha": 0.05,
+    "n_processed": 2458,
+    "n_both_estimable": 961,
+    "AN": {
+      "pass_rate": 0.7908428720083247,
+      "n_pass": 760,
+      "expected_null_passes": 48.050000000000004,
+      "fraction_of_passes_expected_null": 0.06322368421052632,
+      "enrichment_over_alpha": 15.816857440166494,
+      "pi_upper_bound_perfect_power": 0.779834602114026
+    },
+    "ASD": {
+      "pass_rate": 0.09365244536940687,
+      "n_pass": 90,
+      "expected_null_passes": 48.050000000000004,
+      "fraction_of_passes_expected_null": 0.533888888888889,
+      "enrichment_over_alpha": 1.8730489073881373,
+      "pi_upper_bound_perfect_power": 0.04594994249411249
+    },
+    "joint": {
+      "n_joint_pass": 73,
+      "expected_joint_if_t1_all_null": 4.5,
+      "expected_joint_if_t2_all_null": 38.0
+    }
+  },
+  "null_sign": {
+    "observed": {
+      "n_loci": 73,
+      "n_positive": 53,
+      "n_determinate": 11,
+      "n_determinate_positive": 10
+    },
+    "r_e": 0.09454,
+    "traits": [
+      "AN",
+      "ASD"
+    ],
+    "partA": {
+      "mean_p_positive": 0.6087899543378996,
+      "min_p_positive": 0.49266666666666664,
+      "max_p_positive": 0.7156666666666667,
+      "expected_n_positive": 44.44166666666667,
+      "observed_n_positive": 53,
+      "n_loci": 73,
+      "poisson_binomial_two_sided_p": 0.04044279465025613,
+      "naive_binomial_null": 0.5
+    },
+    "partB": {
+      "null_mean_p_determinate": 0.06624657534246575,
+      "null_expected_n_determinate": 4.836,
+      "observed_n_determinate": 11,
+      "poisson_binomial_two_sided_p_determinate": 0.008249099683370698,
+      "null_p_positive_given_determinate": 0.7923904052936311,
+      "observed_n_determinate_positive": 10,
+      "direction_test_p": 0.07732705383428233
+    }
+  }
+}

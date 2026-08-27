@@ -1,0 +1,23 @@
+{
+  "n_param_combinations": 500,
+  "K_min": 50,
+  "K_max": 500,
+  "theta_min": 0.005,
+  "theta_max": 0.3,
+  "r_e_min": 0,
+  "r_e_max": 0.2,
+  "n_checks": 10,
+  "n_failed": 0,
+  "max_diff_delta": 1.2505552149e-12,
+  "max_diff_slope_intercept": 1.8318679906e-15,
+  "Delta_1": 1.2505552149e-12,
+  "Delta_2": 1.2505552149e-12,
+  "slope": 1.7763568394e-15,
+  "intercept": 1.8318679906e-15,
+  "g_K inverted returns theta": 4.6125821715e-07,
+  "aggregate slope vs published": 6.2172489379e-15,
+  "aggregate intercept vs published": 1.4745149546e-16,
+  "mean rho_hat vs published": 2.7755575616e-17,
+  "mean CI width vs published": 2.2204460493e-16,
+  "n floored vs published": 0
+}

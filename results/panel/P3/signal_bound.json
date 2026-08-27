@@ -1,0 +1,26 @@
+{
+  "alpha": 0.05,
+  "n_processed": 2424,
+  "n_both_estimable": 977,
+  "ASD": {
+    "pass_rate": 0.11258955987717502,
+    "n_pass": 110,
+    "expected_null_passes": 48.85,
+    "fraction_of_passes_expected_null": 0.4440909090909091,
+    "enrichment_over_alpha": 2.2517911975435,
+    "pi_upper_bound_perfect_power": 0.0658837472391316
+  },
+  "ADHD": {
+    "pass_rate": 0.7482088024564995,
+    "n_pass": 731,
+    "expected_null_passes": 48.85,
+    "fraction_of_passes_expected_null": 0.06682626538987688,
+    "enrichment_over_alpha": 14.964176049129989,
+    "pi_upper_bound_perfect_power": 0.7349566341647362
+  },
+  "joint": {
+    "n_joint_pass": 84,
+    "expected_joint_if_t1_all_null": 36.550000000000004,
+    "expected_joint_if_t2_all_null": 5.5
+  }
+}

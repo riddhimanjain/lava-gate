@@ -1,0 +1,2 @@
+"pair","traits","group","n_snps_common","blocks","processed","est_1","est_2","both_estimable","gate_pass","reported","pct_reported","paramlim_drops","bonferroni_survivors","ch2_loss_1","ch2_loss_2","weaker_trait","mean_rho","pct_positive","n_determinate","mean_ci_width","median_K"
+"P3","ASD x ADHD","P3",5495835,2495,2424,1017,2384,977,84,84,3.37,0,0,58,1.7,"ASD",0.1531,66.7,8,1.358,229

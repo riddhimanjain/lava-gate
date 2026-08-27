@@ -1,0 +1,50 @@
+{
+  "observed": {
+    "n_loci": 78,
+    "n_positive": 57,
+    "n_determinate": 10,
+    "n_determinate_positive": 10
+  },
+  "r_e": 0.02756,
+  "partA": {
+    "rho_0.0": {
+      "mean_p_positive": 0.5306260683760684,
+      "min_p_positive": 0.488,
+      "max_p_positive": 0.5678333333333333,
+      "expected_n_positive": 41.38883333333334,
+      "observed_n_positive": 57,
+      "n_loci": 78,
+      "poisson_binomial_two_sided_p": 0.00037670299951384503
+    },
+    "rho_-0.4": {
+      "mean_p_positive": 0.4224316239316238,
+      "min_p_positive": 0.0265,
+      "max_p_positive": 0.5785,
+      "expected_n_positive": 32.94966666666666,
+      "observed_n_positive": 57,
+      "n_loci": 78,
+      "poisson_binomial_two_sided_p": 2.526956611289058e-09
+    },
+    "rho_0.37": {
+      "mean_p_positive": 0.6315833333333334,
+      "min_p_positive": 0.5135,
+      "max_p_positive": 0.9665,
+      "expected_n_positive": 49.2635,
+      "observed_n_positive": 57,
+      "n_loci": 78,
+      "poisson_binomial_two_sided_p": 0.06512191815026014
+    }
+  },
+  "partB": {
+    "n_sim_per_locus": 250,
+    "n_boot_ci": 2000,
+    "null_mean_p_determinate": 0.05810256410256409,
+    "null_expected_n_determinate": 4.531999999999999,
+    "observed_n_determinate": 10,
+    "poisson_binomial_two_sided_p_determinate": 0.02384902920907265,
+    "null_p_positive_given_determinate": 0.6010591350397178,
+    "observed_n_determinate_positive": 10,
+    "direction_test_p": 0.006256319865821314,
+    "note": "p_positive_given_determinate is pooled as sum(P(det & pos))/sum(P(det)) across loci, which is the correct weighting when per-locus determinacy probabilities differ."
+  }
+}

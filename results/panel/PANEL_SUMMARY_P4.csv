@@ -1,0 +1,2 @@
+"pair","traits","group","n_snps_common","blocks","processed","est_1","est_2","both_estimable","gate_pass","reported","pct_reported","paramlim_drops","bonferroni_survivors","ch2_loss_1","ch2_loss_2","weaker_trait","mean_rho","pct_positive","n_determinate","mean_ci_width","median_K"
+"P4","ASD x SCZ","P4",5774835,2495,2400,971,2335,906,78,78,3.13,0,0,59.5,2.7,"ASD",0.2042,73.1,10,1.3646,267.5

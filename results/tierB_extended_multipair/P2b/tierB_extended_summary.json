@@ -1,0 +1,21 @@
+{
+  "pair": "P2b",
+  "group": "P2",
+  "traits": ["MDD_noUKB", "BIP_noUKB"],
+  "n_selected": 118,
+  "n_usable_loci": 88,
+  "slope_full": 0.88178469,
+  "slope_full_lo": 0.87680322,
+  "slope_full_hi": 0.88676615,
+  "intercept_full": 0.02052968,
+  "slope_origgrid": 0.87543461,
+  "slope_origgrid_lo": 0.8668225,
+  "slope_origgrid_hi": 0.88404673,
+  "intercept_origgrid": 0.0252575,
+  "r2_full": 0.99349937,
+  "quad_term_p": 0.20750568,
+  "per_locus_slope_min": 0.73525244,
+  "per_locus_slope_max": 1.00816076,
+  "mech_slope": 0.13526951,
+  "mech_p": 2.48834107e-36
+}

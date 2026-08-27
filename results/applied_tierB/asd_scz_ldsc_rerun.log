@@ -1,0 +1,73 @@
+=== cross-trait ldsc(): ASD x SCZ ===
+ASD file: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz 
+SCZ file: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz 
+N1 (ASD) = 46350  N2 (SCZ) = 130644 
+ld  = <PROJECT>/DSM..Neurodivergence/Section 3_Downstream Genetic Architecture/LDSC_reference (Zenodo 10515792)/ld_clean 
+wld = <PROJECT>/DSM..Neurodivergence/Section 3_Downstream Genetic Architecture/LDSC_reference (Zenodo 10515792)/wld_clean 
+
+Multivariate ld-score regression of 2 traits (<PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz) began at: 2026-08-14 15:40:12.016806
+Reading in LD scores
+Read in summary statistics [1/2] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz
+Out of 1159485 SNPs, 1152613 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1152613 remain
+Read in summary statistics [2/2] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Out of 1179669 SNPs, 1168512 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 130.644; 1168512 remain
+Estimating heritability [1/3] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1851
+Lambda GC: 1.1593
+Intercept: 1.0236 (0.0078)
+Ratio: 0.1277 (0.0424)
+Total Observed Scale h2: 0.151 (0.0133)
+h2 Z: 11.4
+Calculating genetic covariance [2/3] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+1151083 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Mean Z*Z: 0.1251
+Cross trait Intercept: 0.0297 (0.0071)
+Total Observed Scale Genetic Covariance (g_cov): 0.055 (0.0082)
+g_cov Z: 6.73
+g_cov P-value: 1.755e-11
+Estimating heritability [3/3] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Mean Chi^2 across remaining SNPs: 2.0172
+Lambda GC: 1.7394
+Intercept: 1.1369 (0.0143)
+Ratio: 0.1345 (0.0141)
+Total Observed Scale h2: 0.3055 (0.0123)
+h2 Z: 24.7
+Liability Scale Results
+Liability scale results for: ASD
+Total Liability Scale h2: 0.096 (0.0085)
+Total Liability Scale Genetic Covariance between ASD and SCZ: 0.0331 (0.0049)
+Liability scale results for: SCZ
+Total Liability Scale h2: 0.1744 (0.0071)
+Genetic Correlation Results
+Genetic Correlation between ASD and SCZ: 0.2561 (0.0381)
+LDSC finished running at 2026-08-14 15:40:52.893747
+Running LDSC for all files took 0 minutes and 40 seconds
+
+--- Genetic covariance / heritability matrix (S) ---
+            ASD        SCZ
+[1,] 0.09603443 0.03313748
+[2,] 0.03313748 0.17440430
+
+--- Intercept matrix (I) ---
+          [,1]      [,2]
+[1,] 1.0236430 0.0297301
+[2,] 0.0297301 1.1368506
+
+gcov_int (cross-trait LDSC intercept) = 0.0297301 
+intercept / sqrt(N1*N2) = 3.820558e-07 
+
+--- Standardised sampling-correlation matrix (cov2cor(I), 1s on diagonal) ---
+        ASD     SCZ
+ASD 1.00000 0.02756
+SCZ 0.02756 1.00000
+
+Wrote sample overlap matrix -> <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/sample.overlap.txt 
+
+DONE.

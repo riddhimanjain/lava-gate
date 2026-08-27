@@ -1,0 +1,32 @@
+{
+  "observed": {
+    "n_loci": 84,
+    "n_positive": 56,
+    "n_determinate": 8,
+    "n_determinate_positive": 7
+  },
+  "r_e": 0.23722,
+  "traits": [
+    "ASD",
+    "ADHD"
+  ],
+  "partA": {
+    "mean_p_positive": 0.7350853174603176,
+    "min_p_positive": 0.5351666666666667,
+    "max_p_positive": 0.9146666666666666,
+    "expected_n_positive": 61.74716666666667,
+    "observed_n_positive": 56,
+    "n_loci": 84,
+    "poisson_binomial_two_sided_p": 0.1652255733268196,
+    "naive_binomial_null": 0.5
+  },
+  "partB": {
+    "null_mean_p_determinate": 0.10385714285714286,
+    "null_expected_n_determinate": 8.724,
+    "observed_n_determinate": 8,
+    "poisson_binomial_two_sided_p_determinate": 1.0000000000000009,
+    "null_p_positive_given_determinate": 0.946813388353966,
+    "observed_n_determinate_positive": 7,
+    "direction_test_p": 0.6458254025938571
+  }
+}

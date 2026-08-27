@@ -1,0 +1,19 @@
+ATTRITION AUDIT  ASD x SCZ
+Generated: 2026-08-15 06:16 
+
+Blocks in partition                : 2495 
+CHANNEL 1  processed by process.locus: 2400 (96.2%)  -- lost upstream: 95
+CHANNEL 2  passed univariate gate    : 78 (3.2% of processed)
+           ASD alone clears P<0.05   : 10.5%
+           SCZ alone clears P<0.05   : 68.1%
+CHANNEL 3  dropped by param.lim      : 0 
+FINAL      loci with a reported rho  : 78 (3.13% of all blocks)
+
+Which trait sets the ceiling?  ASD 
+
+Real K distribution (processed loci):
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    3.0   200.0   267.5   273.0   340.2   607.0 
+
+Bonferroni check: loci surviving univariate gate at 0.05/2400 = 2.08e-05
+   0 

@@ -1,0 +1,90 @@
+{
+  "pair": "P4",
+  "traits": [
+    "ASD",
+    "SCZ"
+  ],
+  "r_e": 0.02756,
+  "predicted_gate_intercept": 0.018740800000000002,
+  "fitted_aggregate_intercept": 0.008915355813611166,
+  "n_blocks": 2495,
+  "n_processed": 2400,
+  "n_reported": 78,
+  "pct_reported": 3.13,
+  "mean_rho_hat": 0.20416627512820515,
+  "aggregate_slope": 0.7554480630612126,
+  "mean_rho_corrected_aggregate": 0.2584571049443185,
+  "n_floored": 52,
+  "mean_ci_width": 1.3645647435897434,
+  "mean_ci_width_corrected": 2.270411454998332,
+  "diagnostic": {
+    "usable": false,
+    "C1_stability": {
+      "passed": false,
+      "slope_fold_change": 2.664988332479068,
+      "threshold": 1.25
+    },
+    "C2_floor": {
+      "passed": false,
+      "per_trait": {
+        "ASD": false,
+        "SCZ": true
+      },
+      "pooled_z": {
+        "ASD": -0.15989561811099295,
+        "SCZ": 13.874936008785184
+      },
+      "frac_below": {
+        "ASD": 0.6282051282051282,
+        "SCZ": 0.15384615384615385
+      },
+      "threshold_z": 5.0,
+      "threshold_frac_below": 0.4
+    },
+    "C3_signal": {
+      "passed": false,
+      "per_trait": {
+        "ASD": false,
+        "SCZ": true
+      },
+      "frac_null": {
+        "ASD": 0.4870967741935484,
+        "SCZ": 0.07122641509433963
+      },
+      "threshold": 0.4
+    },
+    "failed_criteria": [
+      "C1 stability",
+      "C2 floor distance",
+      "C3 gate signal"
+    ],
+    "statement": "NOT APPLICABLE. Report the uncorrected estimate with the attenuation stated as a bound. Failed: C1 stability, C2 floor distance, C3 gate signal"
+  },
+  "signal": {
+    "alpha": 0.05,
+    "n_processed": 2400,
+    "n_both_estimable": 906,
+    "ASD": {
+      "pass_rate": 0.10264900662251655,
+      "n_pass": 93,
+      "expected_null_passes": 45.300000000000004,
+      "fraction_of_passes_expected_null": 0.4870967741935484,
+      "enrichment_over_alpha": 2.052980132450331,
+      "pi_upper_bound_perfect_power": 0.05542000697107006
+    },
+    "SCZ": {
+      "pass_rate": 0.7019867549668874,
+      "n_pass": 636,
+      "expected_null_passes": 45.300000000000004,
+      "fraction_of_passes_expected_null": 0.07122641509433963,
+      "enrichment_over_alpha": 14.039735099337749,
+      "pi_upper_bound_perfect_power": 0.6863018473335657
+    },
+    "joint": {
+      "n_joint_pass": 78,
+      "expected_joint_if_t1_all_null": 31.8,
+      "expected_joint_if_t2_all_null": 4.65
+    }
+  },
+  "null_sign": null
+}

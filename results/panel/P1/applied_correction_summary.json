@@ -1,0 +1,20 @@
+{
+  "n_loci": 1369,
+  "r_e": 0.21388,
+  "K_mean": 316,
+  "mean_rho_hat": 0.2331738679203798,
+  "n_floored_no_recoverable_signal": 353,
+  "per_locus_slope_min": 0.09573661672436937,
+  "per_locus_slope_max": 0.9999999999995687,
+  "per_locus_slope_median": 0.9251876070046672,
+  "per_locus_intercept_min": 4.863458302478302e-13,
+  "per_locus_intercept_max": 0.42776000000000003,
+  "per_locus_intercept_median": 0.06057499553758039,
+  "aggregate_slope": 0.9862869868205297,
+  "aggregate_intercept": 0.0077386196940066095,
+  "mean_rho_corrected_aggregate": 0.22856962652736962,
+  "n_corrected_outside_unit": 389,
+  "mean_ci_width": 1.1536839706959707,
+  "mean_ci_width_corrected": 1.4831199926654266,
+  "frac_corrected_width_over_2": 0.14638971315529178
+}

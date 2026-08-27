@@ -1,0 +1,9 @@
+phenotype	cases	controls	cases_max	controls_max	includes_ukbb	n_snps	effect_allele	effect_allele_evidence	filename	source
+ASD	18381	27969	18381	27969	FALSE	NA	A1	Ricopili daner / PGC VCF: effect is for A1	ASD_Grove2019.lava.sumstats.gz	01_harmonize_sumstats.R
+SCZ	53386	77258	53386	77258	FALSE	NA	A1	Ricopili daner / PGC VCF: effect is for A1	SCZ_PGC3_EUR.lava.sumstats.gz	01_harmonize_sumstats.R
+BIP	41917	371549	41917	371549	TRUE	7608180	A1	VCF header: BETA is "beta or ln(OR) of A1"	BIP.lava.sumstats.gz	pgc-bip2021-all.vcf.tsv.gz
+BIP_noUKB	40463	313436	40463	313436	FALSE	7605137	A1	Ricopili daner: OR is the odds ratio for A1	BIP_noUKB.lava.sumstats.gz	daner_bip_pgc3_nm_noukbiobank.gz
+MDD	58854	106796	83836	177093	TRUE	12205627	A1	Ricopili daner: OR is the odds ratio for A1	MDD.lava.sumstats.gz	MDD2018_ex23andMe.gz
+MDD_noUKB	45396	97250	45396	97250	FALSE	9007726	A1	Ricopili daner: OR is the odds ratio for A1	MDD_noUKB.lava.sumstats.gz	daner_pgc_mdd_meta_w2_no23andMe_rmUKBB.gz
+ADHD	38691	186843	38691	275986	FALSE	6774217	A1	Ricopili daner: OR is the odds ratio for A1	ADHD.lava.sumstats.gz	ADHD2022_iPSYCH_deCODE_PGC.meta.gz
+AN	16992	55525	16992	55525	FALSE	7253855	ALT	VCF header: BETA is "beta or ln(OR) of ALT"	AN.lava.sumstats.gz	pgcAN2.2019-07.vcf.tsv.gz

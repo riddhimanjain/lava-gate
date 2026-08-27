@@ -1,0 +1,32 @@
+{
+  "observed": {
+    "n_loci": 78,
+    "n_positive": 57,
+    "n_determinate": 10,
+    "n_determinate_positive": 10
+  },
+  "r_e": 0.02756,
+  "traits": [
+    "ASD",
+    "SCZ"
+  ],
+  "partA": {
+    "mean_p_positive": 0.5306260683760684,
+    "min_p_positive": 0.488,
+    "max_p_positive": 0.5678333333333333,
+    "expected_n_positive": 41.38883333333334,
+    "observed_n_positive": 57,
+    "n_loci": 78,
+    "poisson_binomial_two_sided_p": 0.00037670299951384503,
+    "naive_binomial_null": 0.5
+  },
+  "partB": {
+    "null_mean_p_determinate": 0.057230769230769224,
+    "null_expected_n_determinate": 4.4639999999999995,
+    "observed_n_determinate": 10,
+    "poisson_binomial_two_sided_p_determinate": 0.013220186373064996,
+    "null_p_positive_given_determinate": 0.5967741935483873,
+    "observed_n_determinate_positive": 10,
+    "direction_test_p": 0.005842911365701865
+  }
+}

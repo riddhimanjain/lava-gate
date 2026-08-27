@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: If you use this software or its results, please cite the paper below.
+title: >-
+  Denominator selection bias in local genetic correlation: closed form,
+  correction and diagnostic
+abstract: >-
+  LAVA reports a local genetic correlation only where both traits clear a
+  univariate heritability filter at P < 0.05. The filter acts on the denominator
+  of a ratio estimator and biases every surviving estimate. This software derives
+  the bias in closed form, supplies a gate-aware correction and an applicability
+  diagnostic, and validates both against LAVA's own code path across six
+  psychiatric trait pairs.
+type: software
+license: MIT
+authors:
+  - family-names: Jain
+    given-names: Riddhiman
+    orcid: "https://orcid.org/0009-0005-9040-1039"
+    email: riddhimanjain15@gmail.com
+keywords:
+  - local genetic correlation
+  - LAVA
+  - selection bias
+  - ratio estimator
+  - sample overlap
+  - psychiatric genetics
+preferred-citation:
+  type: article
+  title: >-
+    Significance filtering induces denominator selection bias in local genetic
+    correlation: closed-form characterisation, a gate-aware correction, and an
+    applicability diagnostic
+  authors:
+    - family-names: Jain
+      given-names: Riddhiman
+      orcid: "https://orcid.org/0009-0005-9040-1039"
+  journal: Briefings in Bioinformatics
+  year: 2026

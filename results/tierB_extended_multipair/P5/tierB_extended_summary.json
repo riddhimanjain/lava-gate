@@ -1,0 +1,21 @@
+{
+  "pair": "P5",
+  "group": "P5",
+  "traits": ["AN", "ASD"],
+  "n_selected": 119,
+  "n_usable_loci": 50,
+  "slope_full": 0.5791864,
+  "slope_full_lo": 0.56423838,
+  "slope_full_hi": 0.59413442,
+  "intercept_full": 0.0651937,
+  "slope_origgrid": 0.57570511,
+  "slope_origgrid_lo": 0.55002797,
+  "slope_origgrid_hi": 0.60138225,
+  "intercept_origgrid": 0.06711431,
+  "r2_full": 0.92827977,
+  "quad_term_p": 0.95834928,
+  "per_locus_slope_min": 0.27163931,
+  "per_locus_slope_max": 0.84366404,
+  "mech_slope": 0.19121974,
+  "mech_p": 6.8376488e-11
+}

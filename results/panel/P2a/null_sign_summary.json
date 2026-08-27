@@ -1,0 +1,32 @@
+{
+  "observed": {
+    "n_loci": 816,
+    "n_positive": 423,
+    "n_determinate": 62,
+    "n_determinate_positive": 34
+  },
+  "r_e": 0.10897,
+  "traits": [
+    "MDD",
+    "BIP"
+  ],
+  "partA": {
+    "mean_p_positive": 0.5795492238562092,
+    "min_p_positive": 0.4835,
+    "max_p_positive": 0.7441666666666666,
+    "expected_n_positive": 472.91216666666674,
+    "observed_n_positive": 423,
+    "n_loci": 816,
+    "poisson_binomial_two_sided_p": 0.0003977773666504352,
+    "naive_binomial_null": 0.5
+  },
+  "partB": {
+    "null_mean_p_determinate": 0.06155882352941177,
+    "null_expected_n_determinate": 50.232000000000006,
+    "observed_n_determinate": 62,
+    "poisson_binomial_two_sided_p_determinate": 0.09233203765432874,
+    "null_p_positive_given_determinate": 0.7086319477623825,
+    "observed_n_determinate_positive": 34,
+    "direction_test_p": 5.322125838682319e-10
+  }
+}
