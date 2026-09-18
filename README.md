@@ -6,6 +6,8 @@ Code, results and manuscript for:
 > correlation: closed-form characterisation, a gate-aware correction, and an
 > applicability diagnostic.**
 > Dana Paquin (Stanford University), Riddhiman Jain (Independent Researcher). Submitted to *Mathematical Biosciences and Engineering* (AIMS Press).
+>
+> Published deposit: DOI [10.5281/zenodo.22830134](https://doi.org/10.5281/zenodo.22830134)
 
 LAVA reports a local genetic correlation only where both traits clear a univariate
 heritability filter at *P* < 0.05. That filter acts on the denominator of a ratio
