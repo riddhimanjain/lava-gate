@@ -13,6 +13,8 @@ abstract: >-
 type: software
 license: MIT
 authors:
+  - family-names: Paquin
+    given-names: Dana
   - family-names: Jain
     given-names: Riddhiman
     orcid: "https://orcid.org/0009-0005-9040-1039"
@@ -31,8 +33,10 @@ preferred-citation:
     correlation: closed-form characterisation, a gate-aware correction, and an
     applicability diagnostic
   authors:
+    - family-names: Paquin
+      given-names: Dana
     - family-names: Jain
       given-names: Riddhiman
       orcid: "https://orcid.org/0009-0005-9040-1039"
-  journal: Briefings in Bioinformatics
+  journal: Mathematical Biosciences and Engineering
   year: 2026
