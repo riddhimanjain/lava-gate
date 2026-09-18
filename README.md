@@ -5,7 +5,7 @@ Code, results and manuscript for:
 > **Significance filtering induces denominator selection bias in local genetic
 > correlation: closed-form characterisation, a gate-aware correction, and an
 > applicability diagnostic.**
-> Riddhiman Jain. Submitted to *Briefings in Bioinformatics* (Problem Solving Protocol).
+> Dana Paquin, Riddhiman Jain. Submitted to *Mathematical Biosciences and Engineering* (AIMS Press).
 
 LAVA reports a local genetic correlation only where both traits clear a univariate
 heritability filter at *P* < 0.05. That filter acts on the denominator of a ratio
