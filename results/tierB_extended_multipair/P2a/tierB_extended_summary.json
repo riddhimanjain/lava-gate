@@ -1,0 +1,21 @@
+{
+  "pair": "P2a",
+  "group": "P2",
+  "traits": ["MDD", "BIP"],
+  "n_selected": 118,
+  "n_usable_loci": 105,
+  "slope_full": 0.92326144,
+  "slope_full_lo": 0.91932928,
+  "slope_full_hi": 0.92719361,
+  "intercept_full": 0.01245429,
+  "slope_origgrid": 0.91726464,
+  "slope_origgrid_lo": 0.91046813,
+  "slope_origgrid_hi": 0.92406114,
+  "intercept_origgrid": 0.01728138,
+  "r2_full": 0.99557829,
+  "quad_term_p": 0.02575199,
+  "per_locus_slope_min": 0.78716873,
+  "per_locus_slope_max": 1.01386906,
+  "mech_slope": 0.11788953,
+  "mech_p": 1.51639442e-49
+}

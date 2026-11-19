@@ -1,0 +1,117 @@
+{
+  "pair": "P2b",
+  "traits": [
+    "MDD_noUKB",
+    "BIP_noUKB"
+  ],
+  "r_e": 0.11322,
+  "predicted_gate_intercept": 0.0769896,
+  "fitted_aggregate_intercept": 0.017197235474341988,
+  "n_blocks": 2495,
+  "n_processed": 2483,
+  "n_reported": 545,
+  "pct_reported": 21.84,
+  "mean_rho_hat": 0.01510144277798165,
+  "aggregate_slope": 0.9147882354420962,
+  "mean_rho_corrected_aggregate": -0.0022910140458326836,
+  "n_floored": 221,
+  "mean_ci_width": 1.2566914862385323,
+  "mean_ci_width_corrected": 2.2436857971154276,
+  "diagnostic": {
+    "usable": true,
+    "C1_stability": {
+      "passed": true,
+      "slope_fold_change": 1.0799306744378518,
+      "threshold": 1.25
+    },
+    "C2_floor": {
+      "passed": true,
+      "per_trait": {
+        "MDD_noUKB": true,
+        "BIP_noUKB": true
+      },
+      "pooled_z": {
+        "MDD_noUKB": 8.061570384185394,
+        "BIP_noUKB": 44.18006932468891
+      },
+      "frac_below": {
+        "MDD_noUKB": 0.39594843462246776,
+        "BIP_noUKB": 0.058931860036832415
+      },
+      "threshold_z": 5.0,
+      "threshold_frac_below": 0.4
+    },
+    "C3_signal": {
+      "passed": true,
+      "per_trait": {
+        "MDD_noUKB": true,
+        "BIP_noUKB": true
+      },
+      "frac_null": {
+        "MDD_noUKB": 0.1429699842022117,
+        "BIP_noUKB": 0.05961791831357049
+      },
+      "threshold": 0.4
+    },
+    "failed_criteria": [],
+    "statement": "A corrected magnitude MAY be reported for this pair."
+  },
+  "signal": {
+    "alpha": 0.05,
+    "n_processed": 2483,
+    "n_both_estimable": 1810,
+    "MDD_noUKB": {
+      "pass_rate": 0.3497237569060773,
+      "n_pass": 633,
+      "expected_null_passes": 90.5,
+      "fraction_of_passes_expected_null": 0.1429699842022117,
+      "enrichment_over_alpha": 6.994475138121546,
+      "pi_upper_bound_perfect_power": 0.3154986914800814
+    },
+    "BIP_noUKB": {
+      "pass_rate": 0.8386740331491712,
+      "n_pass": 1518,
+      "expected_null_passes": 90.5,
+      "fraction_of_passes_expected_null": 0.05961791831357049,
+      "enrichment_over_alpha": 16.773480662983424,
+      "pi_upper_bound_perfect_power": 0.8301831927886013
+    },
+    "joint": {
+      "n_joint_pass": 547,
+      "expected_joint_if_t1_all_null": 75.9,
+      "expected_joint_if_t2_all_null": 31.650000000000002
+    }
+  },
+  "null_sign": {
+    "observed": {
+      "n_loci": 545,
+      "n_positive": 279,
+      "n_determinate": 49,
+      "n_determinate_positive": 32
+    },
+    "r_e": 0.11322,
+    "traits": [
+      "MDD_noUKB",
+      "BIP_noUKB"
+    ],
+    "partA": {
+      "mean_p_positive": 0.5820357798165139,
+      "min_p_positive": 0.488,
+      "max_p_positive": 0.758,
+      "expected_n_positive": 317.20950000000005,
+      "observed_n_positive": 279,
+      "n_loci": 545,
+      "poisson_binomial_two_sided_p": 0.0010242855878460151,
+      "naive_binomial_null": 0.5
+    },
+    "partB": {
+      "null_mean_p_determinate": 0.06071192660550459,
+      "null_expected_n_determinate": 33.088,
+      "observed_n_determinate": 49,
+      "poisson_binomial_two_sided_p_determinate": 0.006697836760038541,
+      "null_p_positive_given_determinate": 0.7121615087040619,
+      "observed_n_determinate_positive": 32,
+      "direction_test_p": 5.975116155339134e-08
+    }
+  }
+}

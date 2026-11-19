@@ -1,0 +1,14 @@
+{
+  "pre_gate": {
+    "mean_coverage": 0.974200207689944,
+    "min_coverage": 0.9648397104446742,
+    "mean_width": 1.6512833324719953,
+    "mean_frac_width_gt_1": 0.9356433478103683
+  },
+  "post_gate": {
+    "mean_coverage": 0.9493423042569433,
+    "min_coverage": 0.9439626417611742,
+    "mean_width": 1.385872442192186,
+    "mean_frac_width_gt_1": 0.8688246508577413
+  }
+}

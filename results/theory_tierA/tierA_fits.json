@@ -1,0 +1,68 @@
+{
+  "S1_asdlike_x_sczlike": {
+    "sim_slope": 0.6063746268133469,
+    "sim_intercept": 0.004660314399686392,
+    "sim_max_abs_resid_linear": 0.006223065572939723,
+    "pred_slope": 0.5896773999737533,
+    "attenuation_1_over_sqrt_a1a2": 0.5392079911710638,
+    "slope_vs_pred_reldiff": 0.028315867015315004,
+    "slope_vs_attenuation_reldiff": 0.1245653564896342,
+    "max_abs_resid_vs_pred": 0.020601097397058454,
+    "max_abs_z": 11.054999310863701
+  },
+  "S2_matched_moderate": {
+    "sim_slope": 0.5720802556925071,
+    "sim_intercept": 0.004135045155662398,
+    "sim_max_abs_resid_linear": 0.009085508060548197,
+    "pred_slope": 0.5260249769200677,
+    "attenuation_1_over_sqrt_a1a2": 0.4944266420480721,
+    "slope_vs_pred_reldiff": 0.0875534067642529,
+    "slope_vs_attenuation_reldiff": 0.15705790716044163,
+    "max_abs_resid_vs_pred": 0.04249683996811088,
+    "max_abs_z": 17.650549636630352
+  },
+  "S3_overlap_re05": {
+    "sim_slope": 0.6061895700875835,
+    "sim_intercept": 0.037757012778323155,
+    "sim_max_abs_resid_linear": 0.006271015146368297,
+    "pred_slope": 0.5896773999737533,
+    "attenuation_1_over_sqrt_a1a2": 0.5392079911710638,
+    "slope_vs_pred_reldiff": 0.02800203995365104,
+    "slope_vs_attenuation_reldiff": 0.12422215548224279,
+    "max_abs_resid_vs_pred": 0.053293071695645455,
+    "max_abs_z": 29.315029163921363
+  },
+  "S4_overlap_re10": {
+    "sim_slope": 0.600984913763057,
+    "sim_intercept": 0.07091775907038789,
+    "sim_max_abs_resid_linear": 0.009512498251900592,
+    "pred_slope": 0.5896773999737533,
+    "attenuation_1_over_sqrt_a1a2": 0.5392079911710638,
+    "slope_vs_pred_reldiff": 0.019175762526776358,
+    "slope_vs_attenuation_reldiff": 0.11456974600436598,
+    "max_abs_resid_vs_pred": 0.08285618754449531,
+    "max_abs_z": 46.83119495389889
+  },
+  "S5_smallK": {
+    "sim_slope": 0.45070153815438113,
+    "sim_intercept": 0.0015772546336280506,
+    "sim_max_abs_resid_linear": 0.00524707513462469,
+    "pred_slope": 0.5114806018174765,
+    "attenuation_1_over_sqrt_a1a2": 0.3389909111169835,
+    "slope_vs_pred_reldiff": 0.11882965541044024,
+    "slope_vs_attenuation_reldiff": 0.3295387084842728,
+    "max_abs_resid_vs_pred": 0.05552171494103597,
+    "max_abs_z": 15.066476860939554
+  },
+  "S6_largeK": {
+    "sim_slope": 0.6879951213173342,
+    "sim_intercept": 0.005188662947110376,
+    "sim_max_abs_resid_linear": 0.011188063489320998,
+    "pred_slope": 0.6604569217595575,
+    "attenuation_1_over_sqrt_a1a2": 0.6351378003642223,
+    "slope_vs_pred_reldiff": 0.04169567862868445,
+    "slope_vs_attenuation_reldiff": 0.08322181567968505,
+    "max_abs_resid_vs_pred": 0.028741300943273207,
+    "max_abs_z": 21.60668518729069
+  }
+}

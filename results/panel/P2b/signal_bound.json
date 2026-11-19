@@ -1,0 +1,26 @@
+{
+  "alpha": 0.05,
+  "n_processed": 2483,
+  "n_both_estimable": 1810,
+  "MDD_noUKB": {
+    "pass_rate": 0.3497237569060773,
+    "n_pass": 633,
+    "expected_null_passes": 90.5,
+    "fraction_of_passes_expected_null": 0.1429699842022117,
+    "enrichment_over_alpha": 6.994475138121546,
+    "pi_upper_bound_perfect_power": 0.3154986914800814
+  },
+  "BIP_noUKB": {
+    "pass_rate": 0.8386740331491712,
+    "n_pass": 1518,
+    "expected_null_passes": 90.5,
+    "fraction_of_passes_expected_null": 0.05961791831357049,
+    "enrichment_over_alpha": 16.773480662983424,
+    "pi_upper_bound_perfect_power": 0.8301831927886013
+  },
+  "joint": {
+    "n_joint_pass": 547,
+    "expected_joint_if_t1_all_null": 75.9,
+    "expected_joint_if_t2_all_null": 31.650000000000002
+  }
+}

@@ -1,0 +1,53 @@
+TIER B  --  real loci, real K, real Sigma, real LAVA code path
+Generated: 2026-08-15 06:34 
+
+Loci used: 18  K range: 90 - 451  median: 221.5 
+Replicates per cell: 2000 
+
+
+Call:
+lm(formula = mean_rho_hat ~ rho_true, data = ok)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.116258 -0.027855 -0.002557  0.022986  0.162210 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 0.028293   0.009348   3.027  0.00324 ** 
+rho_true    0.551230   0.019081  28.890  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.0512 on 88 degrees of freedom
+Multiple R-squared:  0.9046,	Adjusted R-squared:  0.9035 
+F-statistic: 834.6 on 1 and 88 DF,  p-value: < 2.2e-16
+
+
+Pooled slope     : 0.55123 
+Pooled intercept : 0.028293 
+
+Compare against Tier A (out/RESULTS_TIERA.md):
+  Tier A K=300 slope was 0.6064 under the assumed sampling model.
+  A materially different Tier B slope means the sampling model, not the
+  gate analysis, is what needs revisiting.
+
+Per-locus slopes:
+  locus 2334     K=   90  slope=0.5640  intercept=+0.0204
+  locus 391      K=  142  slope=0.5180  intercept=+0.0572
+  locus 18       K=  155  slope=0.3467  intercept=+0.0614
+  locus 708      K=  166  slope=0.6080  intercept=+0.0187
+  locus 1384     K=  191  slope=0.6687  intercept=+0.0448
+  locus 2418     K=  196  slope=0.6598  intercept=+0.0125
+  locus 910      K=  201  slope=0.5354  intercept=-0.0044
+  locus 1459     K=  213  slope=0.5147  intercept=+0.0137
+  locus 646      K=  218  slope=0.4992  intercept=+0.0470
+  locus 996      K=  225  slope=0.5265  intercept=+0.0360
+  locus 643      K=  240  slope=0.6576  intercept=+0.0279
+  locus 1298     K=  251  slope=0.8061  intercept=+0.0096
+  locus 379      K=  271  slope=0.5651  intercept=+0.0150
+  locus 1971     K=  275  slope=0.5300  intercept=+0.0225
+  locus 2361     K=  331  slope=0.4479  intercept=+0.0366
+  locus 1552     K=  378  slope=0.3655  intercept=+0.0833
+  locus 1230     K=  382  slope=0.5241  intercept=-0.0052
+  locus 1965     K=  451  slope=0.5847  intercept=+0.0122

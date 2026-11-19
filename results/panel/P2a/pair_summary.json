@@ -1,0 +1,117 @@
+{
+  "pair": "P2a",
+  "traits": [
+    "MDD",
+    "BIP"
+  ],
+  "r_e": 0.10897,
+  "predicted_gate_intercept": 0.0740996,
+  "fitted_aggregate_intercept": 0.011718857524137587,
+  "n_blocks": 2495,
+  "n_processed": 2483,
+  "n_reported": 816,
+  "pct_reported": 32.71,
+  "mean_rho_hat": 0.015553716148884685,
+  "aggregate_slope": 0.95276004853069,
+  "mean_rho_corrected_aggregate": 0.004024999401120009,
+  "n_floored": 279,
+  "mean_ci_width": 1.2795763916256158,
+  "mean_ci_width_corrected": 1.7847817140398516,
+  "diagnostic": {
+    "usable": true,
+    "C1_stability": {
+      "passed": true,
+      "slope_fold_change": 1.0337246665421012,
+      "threshold": 1.25
+    },
+    "C2_floor": {
+      "passed": true,
+      "per_trait": {
+        "MDD": true,
+        "BIP": true
+      },
+      "pooled_z": {
+        "MDD": 18.017498584794186,
+        "BIP": 35.64306868816037
+      },
+      "frac_below": {
+        "MDD": 0.2853628536285363,
+        "BIP": 0.12423124231242312
+      },
+      "threshold_z": 5.0,
+      "threshold_frac_below": 0.4
+    },
+    "C3_signal": {
+      "passed": true,
+      "per_trait": {
+        "MDD": true,
+        "BIP": true
+      },
+      "frac_null": {
+        "MDD": 0.10175953079178887,
+        "BIP": 0.06522556390977444
+      },
+      "threshold": 0.4
+    },
+    "failed_criteria": [],
+    "statement": "A corrected magnitude MAY be reported for this pair."
+  },
+  "signal": {
+    "alpha": 0.05,
+    "n_processed": 2483,
+    "n_both_estimable": 2082,
+    "MDD": {
+      "pass_rate": 0.49135446685878964,
+      "n_pass": 1023,
+      "expected_null_passes": 104.10000000000001,
+      "fraction_of_passes_expected_null": 0.10175953079178887,
+      "enrichment_over_alpha": 9.827089337175792,
+      "pi_upper_bound_perfect_power": 0.46458364932504176
+    },
+    "BIP": {
+      "pass_rate": 0.7665706051873199,
+      "n_pass": 1596,
+      "expected_null_passes": 104.10000000000001,
+      "fraction_of_passes_expected_null": 0.06522556390977444,
+      "enrichment_over_alpha": 15.331412103746397,
+      "pi_upper_bound_perfect_power": 0.7542848475655999
+    },
+    "joint": {
+      "n_joint_pass": 817,
+      "expected_joint_if_t1_all_null": 79.80000000000001,
+      "expected_joint_if_t2_all_null": 51.150000000000006
+    }
+  },
+  "null_sign": {
+    "observed": {
+      "n_loci": 816,
+      "n_positive": 423,
+      "n_determinate": 62,
+      "n_determinate_positive": 34
+    },
+    "r_e": 0.10897,
+    "traits": [
+      "MDD",
+      "BIP"
+    ],
+    "partA": {
+      "mean_p_positive": 0.5795492238562092,
+      "min_p_positive": 0.4835,
+      "max_p_positive": 0.7441666666666666,
+      "expected_n_positive": 472.91216666666674,
+      "observed_n_positive": 423,
+      "n_loci": 816,
+      "poisson_binomial_two_sided_p": 0.0003977773666504352,
+      "naive_binomial_null": 0.5
+    },
+    "partB": {
+      "null_mean_p_determinate": 0.06155882352941177,
+      "null_expected_n_determinate": 50.232000000000006,
+      "observed_n_determinate": 62,
+      "poisson_binomial_two_sided_p_determinate": 0.09233203765432874,
+      "null_p_positive_given_determinate": 0.7086319477623825,
+      "observed_n_determinate_positive": 34,
+      "direction_test_p": 5.322125838682319e-10
+    }
+  }
+}

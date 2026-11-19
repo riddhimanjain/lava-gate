@@ -1,0 +1,53 @@
+{
+  "n_loci": 78,
+  "r_e": 0.02756,
+  "mean_rho_hat_observed": 0.20416627512820515,
+  "stability": {
+    "strata_1": {
+      "slope": 0.7685865173198023,
+      "intercept": 0.0085303566439629,
+      "corrected_mean": 0.2545398781733245
+    },
+    "strata_2": {
+      "slope": 0.6164262472035988,
+      "intercept": 0.013592660370272389,
+      "corrected_mean": 0.30915882576782683
+    },
+    "strata_3": {
+      "slope": 0.508061233863507,
+      "intercept": 0.01548234258395531,
+      "corrected_mean": 0.3713802982160624
+    },
+    "strata_4": {
+      "slope": 0.3859515300201877,
+      "intercept": 0.017405922101566107,
+      "corrected_mean": 0.48389587422252295
+    },
+    "strata_6": {
+      "slope": 0.39753069679958447,
+      "intercept": 0.0170104587034827,
+      "corrected_mean": 0.4707958855290042
+    },
+    "strata_8": {
+      "slope": 0.2884014567541599,
+      "intercept": 0.01912714480980623,
+      "corrected_mean": 0.6416026201841643
+    }
+  },
+  "slope_range_over_binning": [
+    0.2884014567541599,
+    0.7685865173198023
+  ],
+  "slope_fold_change_over_binning": 2.664988332479067,
+  "corrected_mean_range_over_binning": [
+    0.2545398781733245,
+    0.6416026201841643
+  ],
+  "n_floored_per_locus": 52,
+  "asd_max_z_above_null": 3.049556153214417,
+  "asd_weighted_pct_below_null": 0.6282051282051282,
+  "scz_min_z_above_null": 1.9541207236058502,
+  "scz_weighted_pct_below_null": 0.15384615384615385,
+  "paper_previous_corrected_mean": 0.3703830980320468,
+  "verdict": "NOT APPLICABLE to ASD x SCZ. The aggregate slope moves by a factor of 2.66 across reasonable K stratifications, because ASD's observed gated heritability sits at the selection floor: the stage-1 inversion is not identified there. The correction is validated and usable, but this trait pair does not meet its precondition. Report the uncorrected estimate with the attenuation stated as a bound."
+}

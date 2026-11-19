@@ -1,0 +1,520 @@
+Multivariate ld-score regression of 8 traits (<PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz) began at: 2026-08-23 23:05:18.114819
+Reading in LD scores
+Read in summary statistics [1/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz
+Out of 1159485 SNPs, 1152613 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1152613 remain
+Read in summary statistics [2/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Out of 1179669 SNPs, 1168512 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 130.644; 1168512 remain
+Read in summary statistics [3/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+Out of 1178085 SNPs, 1166960 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 413.466; 1166960 remain
+Read in summary statistics [4/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+Out of 720418 SNPs, 715095 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 353.899; 715095 remain
+Read in summary statistics [5/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+Out of 849894 SNPs, 834665 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 173.005; 834665 remain
+Read in summary statistics [6/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Out of 1188881 SNPs, 1174541 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 142.646; 1174541 remain
+Read in summary statistics [7/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Out of 1133286 SNPs, 1123904 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 225.534; 1123904 remain
+Read in summary statistics [8/8] from: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Out of 1124397 SNPs, 1120918 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1120918 remain
+          
+Estimating heritability [1/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1851
+Lambda GC: 1.1593
+Intercept: 1.0236 (0.0078)
+Ratio: 0.1277 (0.0424)
+Total Observed Scale h2: 0.151 (0.0133)
+h2 Z: 11.4
+     
+Calculating genetic covariance [2/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+1151083 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Mean Z*Z: 0.1251
+Cross trait Intercept: 0.0297 (0.0071)
+Total Observed Scale Genetic Covariance (g_cov): 0.055 (0.0082)
+g_cov Z: 6.73
+g_cov P-value: 1.755e-11
+     
+Calculating genetic covariance [3/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+1150749 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+Mean Z*Z: 0.1001
+Cross trait Intercept: 0.0387 (0.0057)
+Total Observed Scale Genetic Covariance (g_cov): 0.0214 (0.0041)
+g_cov Z: 5.17
+g_cov P-value: 2.3434e-07
+     
+Calculating genetic covariance [4/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+704801 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+Mean Z*Z: 0.0947
+Cross trait Intercept: 0.0422 (0.0071)
+Total Observed Scale Genetic Covariance (g_cov): 0.0192 (0.0052)
+g_cov Z: 3.71
+g_cov P-value: 0.00020973
+     
+Calculating genetic covariance [5/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+810841 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+Mean Z*Z: 0.245
+Cross trait Intercept: 0.1482 (0.0062)
+Total Observed Scale Genetic Covariance (g_cov): 0.0473 (0.0052)
+g_cov Z: 9.02
+g_cov P-value: 1.8657e-19
+     
+Calculating genetic covariance [6/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+1151902 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Mean Z*Z: 0.2496
+Cross trait Intercept: 0.1649 (0.0052)
+Total Observed Scale Genetic Covariance (g_cov): 0.0478 (0.0046)
+g_cov Z: 10.4
+g_cov P-value: 2.5472e-25
+     
+Calculating genetic covariance [7/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+1120816 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Z*Z: 0.3765
+Cross trait Intercept: 0.249 (0.007)
+Total Observed Scale Genetic Covariance (g_cov): 0.0587 (0.0058)
+g_cov Z: 10.2
+g_cov P-value: 2.1053e-24
+     
+Calculating genetic covariance [8/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+1115441 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ASD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.1397
+Cross trait Intercept: 0.0981 (0.006)
+Total Observed Scale Genetic Covariance (g_cov): 0.0347 (0.0083)
+g_cov Z: 4.2
+g_cov P-value: 2.7177e-05
+          
+Estimating heritability [9/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz
+Mean Chi^2 across remaining SNPs: 2.0172
+Lambda GC: 1.7394
+Intercept: 1.1369 (0.0143)
+Ratio: 0.1345 (0.0141)
+Total Observed Scale h2: 0.3055 (0.0123)
+h2 Z: 24.7
+     
+Calculating genetic covariance [10/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+1166752 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+Mean Z*Z: 0.7017
+Cross trait Intercept: 0.2366 (0.0078)
+Total Observed Scale Genetic Covariance (g_cov): 0.0921 (0.0042)
+g_cov Z: 22.1
+g_cov P-value: 5.7193e-108
+     
+Calculating genetic covariance [11/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+714952 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+Mean Z*Z: 0.7109
+Cross trait Intercept: 0.236 (0.0103)
+Total Observed Scale Genetic Covariance (g_cov): 0.1017 (0.0057)
+g_cov Z: 17.8
+g_cov P-value: 5.2589e-71
+     
+Calculating genetic covariance [12/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+821662 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+Mean Z*Z: 0.2603
+Cross trait Intercept: 0.08 (0.0067)
+Total Observed Scale Genetic Covariance (g_cov): 0.052 (0.0047)
+g_cov Z: 11.1
+g_cov P-value: 1.7757e-28
+     
+Calculating genetic covariance [13/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+1167266 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Mean Z*Z: 0.2424
+Cross trait Intercept: 0.0851 (0.0059)
+Total Observed Scale Genetic Covariance (g_cov): 0.0516 (0.0045)
+g_cov Z: 11.5
+g_cov P-value: 1.1994e-30
+     
+Calculating genetic covariance [14/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+1123184 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Z*Z: 0.163
+Cross trait Intercept: 0.0482 (0.0075)
+Total Observed Scale Genetic Covariance (g_cov): 0.0297 (0.004)
+g_cov Z: 7.37
+g_cov P-value: 1.7345e-13
+     
+Calculating genetic covariance [15/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+1120207 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/SCZ.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.1687
+Cross trait Intercept: 0.0673 (0.0072)
+Total Observed Scale Genetic Covariance (g_cov): 0.0494 (0.0062)
+g_cov Z: 7.92
+g_cov P-value: 2.4126e-15
+          
+Estimating heritability [16/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.5877
+Lambda GC: 1.4468
+Intercept: 1.0762 (0.0091)
+Ratio: 0.1297 (0.0154)
+Total Observed Scale h2: 0.0569 (0.0026)
+h2 Z: 22.3
+     
+Calculating genetic covariance [17/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+714885 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+Mean Z*Z: 1.5732
+Cross trait Intercept: 1.0696 (0.0118)
+Total Observed Scale Genetic Covariance (g_cov): 0.0613 (0.0035)
+g_cov Z: 17.7
+g_cov P-value: 3.3468e-70
+     
+Calculating genetic covariance [18/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+820618 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+Mean Z*Z: 0.2837
+Cross trait Intercept: 0.11 (0.0061)
+Total Observed Scale Genetic Covariance (g_cov): 0.0294 (0.0021)
+g_cov Z: 13.9
+g_cov P-value: 5.8155e-44
+     
+Calculating genetic covariance [19/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+1165874 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Mean Z*Z: 0.2711
+Cross trait Intercept: 0.1187 (0.0056)
+Total Observed Scale Genetic Covariance (g_cov): 0.0285 (0.0021)
+g_cov Z: 13.6
+g_cov P-value: 2.0699e-42
+     
+Calculating genetic covariance [20/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+1122998 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Z*Z: 0.1749
+Cross trait Intercept: 0.0656 (0.0067)
+Total Observed Scale Genetic Covariance (g_cov): 0.0166 (0.0022)
+g_cov Z: 7.7
+g_cov P-value: 1.3753e-14
+     
+Calculating genetic covariance [21/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+1119781 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.1407
+Cross trait Intercept: 0.0685 (0.006)
+Total Observed Scale Genetic Covariance (g_cov): 0.02 (0.0031)
+g_cov Z: 6.52
+g_cov P-value: 6.9954e-11
+          
+Estimating heritability [22/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.567
+Lambda GC: 1.4443
+Intercept: 1.0749 (0.0117)
+Ratio: 0.1322 (0.0206)
+Total Observed Scale h2: 0.0646 (0.0037)
+h2 Z: 17.4
+     
+Calculating genetic covariance [23/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+516950 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+Mean Z*Z: 0.285
+Cross trait Intercept: 0.1186 (0.0083)
+Total Observed Scale Genetic Covariance (g_cov): 0.03 (0.003)
+g_cov Z: 9.95
+g_cov P-value: 2.613e-23
+     
+Calculating genetic covariance [24/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+714228 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Mean Z*Z: 0.2723
+Cross trait Intercept: 0.1225 (0.0072)
+Total Observed Scale Genetic Covariance (g_cov): 0.0301 (0.0028)
+g_cov Z: 10.9
+g_cov P-value: 1.346e-27
+     
+Calculating genetic covariance [25/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+686896 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Z*Z: 0.187
+Cross trait Intercept: 0.0674 (0.0079)
+Total Observed Scale Genetic Covariance (g_cov): 0.0189 (0.0028)
+g_cov Z: 6.78
+g_cov P-value: 1.2249e-11
+     
+Calculating genetic covariance [26/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+684589 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/BIP_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.135
+Cross trait Intercept: 0.0703 (0.0079)
+Total Observed Scale Genetic Covariance (g_cov): 0.0193 (0.0043)
+g_cov Z: 4.52
+g_cov P-value: 6.3164e-06
+          
+Estimating heritability [27/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.2512
+Lambda GC: 1.222
+Intercept: 1.011 (0.009)
+Ratio: 0.0439 (0.0358)
+Total Observed Scale h2: 0.0608 (0.0044)
+h2 Z: 13.8
+     
+Calculating genetic covariance [28/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+826465 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Mean Z*Z: 1.1202
+Cross trait Intercept: 0.9059 (0.009)
+Total Observed Scale Genetic Covariance (g_cov): 0.0598 (0.0047)
+g_cov Z: 12.8
+g_cov P-value: 9.8239e-38
+     
+Calculating genetic covariance [29/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+790992 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Z*Z: 0.3495
+Cross trait Intercept: 0.1572 (0.0073)
+Total Observed Scale Genetic Covariance (g_cov): 0.0433 (0.0031)
+g_cov Z: 13.9
+g_cov P-value: 5.7824e-44
+     
+Calculating genetic covariance [30/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+789067 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.1903
+Cross trait Intercept: 0.107 (0.0064)
+Total Observed Scale Genetic Covariance (g_cov): 0.0344 (0.0048)
+g_cov Z: 7.24
+g_cov P-value: 4.5343e-13
+          
+Estimating heritability [31/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1989
+Lambda GC: 1.1845
+Intercept: 1.0177 (0.0076)
+Ratio: 0.0888 (0.0384)
+Total Observed Scale h2: 0.056 (0.0041)
+h2 Z: 13.7
+     
+Calculating genetic covariance [32/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+1123205 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Z*Z: 0.3412
+Cross trait Intercept: 0.177 (0.0065)
+Total Observed Scale Genetic Covariance (g_cov): 0.0413 (0.0028)
+g_cov Z: 15
+g_cov P-value: 1.1719e-50
+     
+Calculating genetic covariance [33/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+1120280 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/MDD_noUKB.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.1929
+Cross trait Intercept: 0.1124 (0.0059)
+Total Observed Scale Genetic Covariance (g_cov): 0.0374 (0.0044)
+g_cov Z: 8.54
+g_cov P-value: 1.3606e-17
+          
+Estimating heritability [34/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.4486
+Lambda GC: 1.356
+Intercept: 1.0767 (0.0092)
+Ratio: 0.1709 (0.0204)
+Total Observed Scale h2: 0.0752 (0.0038)
+h2 Z: 19.9
+     
+Calculating genetic covariance [35/36] for traits: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+1102588 SNPs remain after merging <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz summary statistics
+Results for genetic covariance between: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/ADHD.sumstats.gz and <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Z*Z: 0.0937
+Cross trait Intercept: 0.0653 (0.0059)
+Total Observed Scale Genetic Covariance (g_cov): 0.0115 (0.0037)
+g_cov Z: 3.11
+g_cov P-value: 0.001858
+          
+Estimating heritability [36/36] for: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: <PROJECT>/Bioinformatics/Section 7_LAVA Analysis/munged/AN.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.2789
+Lambda GC: 1.2384
+Intercept: 1.0528 (0.0095)
+Ratio: 0.1894 (0.034)
+Total Observed Scale h2: 0.1396 (0.0101)
+h2 Z: 13.9
+     
+      
+Liability Scale Results
+     
+Liability scale results for: ASD
+Total Liability Scale h2: 0.096 (0.0085)
+Total Liability Scale Genetic Covariance between ASD and SCZ: 0.0331 (0.0049)
+     
+Total Liability Scale Genetic Covariance between ASD and BIP: 0.021 (0.0041)
+     
+Total Liability Scale Genetic Covariance between ASD and BIP_noUKB: 0.0179 (0.0048)
+     
+Total Liability Scale Genetic Covariance between ASD and MDD: 0.0431 (0.0048)
+     
+Total Liability Scale Genetic Covariance between ASD and MDD_noUKB: 0.0447 (0.0043)
+     
+Total Liability Scale Genetic Covariance between ASD and ADHD: 0.0572 (0.0056)
+     
+Total Liability Scale Genetic Covariance between ASD and AN: 0.0243 (0.0058)
+     
+     
+Liability scale results for: SCZ
+Total Liability Scale h2: 0.1744 (0.0071)
+Total Liability Scale Genetic Covariance between SCZ and BIP: 0.0857 (0.0039)
+     
+Total Liability Scale Genetic Covariance between SCZ and BIP_noUKB: 0.0897 (0.005)
+     
+Total Liability Scale Genetic Covariance between SCZ and MDD: 0.0449 (0.0041)
+     
+Total Liability Scale Genetic Covariance between SCZ and MDD_noUKB: 0.0458 (0.004)
+     
+Total Liability Scale Genetic Covariance between SCZ and ADHD: 0.0274 (0.0037)
+     
+Total Liability Scale Genetic Covariance between SCZ and AN: 0.0327 (0.0041)
+     
+     
+Liability scale results for: BIP
+Total Liability Scale h2: 0.0862 (0.0039)
+Total Liability Scale Genetic Covariance between BIP and BIP_noUKB: 0.088 (0.005)
+     
+Total Liability Scale Genetic Covariance between BIP and MDD: 0.0414 (0.003)
+     
+Total Liability Scale Genetic Covariance between BIP and MDD_noUKB: 0.0411 (0.003)
+     
+Total Liability Scale Genetic Covariance between BIP and ADHD: 0.0249 (0.0032)
+     
+Total Liability Scale Genetic Covariance between BIP and AN: 0.0216 (0.0033)
+     
+     
+Liability scale results for: BIP_noUKB
+Total Liability Scale h2: 0.0881 (0.0051)
+Total Liability Scale Genetic Covariance between BIP_noUKB and MDD: 0.0401 (0.004)
+     
+Total Liability Scale Genetic Covariance between BIP_noUKB and MDD_noUKB: 0.0413 (0.0038)
+     
+Total Liability Scale Genetic Covariance between BIP_noUKB and ADHD: 0.027 (0.004)
+     
+Total Liability Scale Genetic Covariance between BIP_noUKB and AN: 0.0197 (0.0044)
+     
+     
+Liability scale results for: MDD
+Total Liability Scale h2: 0.0794 (0.0058)
+Total Liability Scale Genetic Covariance between MDD and MDD_noUKB: 0.0802 (0.0062)
+     
+Total Liability Scale Genetic Covariance between MDD and ADHD: 0.0605 (0.0043)
+     
+Total Liability Scale Genetic Covariance between MDD and AN: 0.0345 (0.0048)
+     
+     
+Liability scale results for: MDD_noUKB
+Total Liability Scale h2: 0.0772 (0.0056)
+Total Liability Scale Genetic Covariance between MDD_noUKB and ADHD: 0.0592 (0.004)
+     
+Total Liability Scale Genetic Covariance between MDD_noUKB and AN: 0.0385 (0.0045)
+     
+     
+Liability scale results for: ADHD
+Total Liability Scale h2: 0.1123 (0.0056)
+Total Liability Scale Genetic Covariance between ADHD and AN: 0.0123 (0.004)
+     
+     
+Liability scale results for: AN
+Total Liability Scale h2: 0.1074 (0.0077)
+     
+      
+Genetic Correlation Results
+Genetic Correlation between ASD and SCZ: 0.2561 (0.0381)
+     
+Genetic Correlation between ASD and BIP: 0.2308 (0.0446)
+     
+Genetic Correlation between ASD and BIP_noUKB: 0.1948 (0.0525)
+     
+Genetic Correlation between ASD and MDD: 0.4937 (0.0547)
+     
+Genetic Correlation between ASD and MDD_noUKB: 0.5198 (0.05)
+     
+Genetic Correlation between ASD and ADHD: 0.5512 (0.0541)
+     
+Genetic Correlation between ASD and AN: 0.2388 (0.0569)
+     
+Genetic Correlation between SCZ and BIP: 0.6986 (0.0317)
+     
+Genetic Correlation between SCZ and BIP_noUKB: 0.7238 (0.0406)
+     
+Genetic Correlation between SCZ and MDD: 0.3817 (0.0345)
+     
+Genetic Correlation between SCZ and MDD_noUKB: 0.3949 (0.0343)
+     
+Genetic Correlation between SCZ and ADHD: 0.1959 (0.0266)
+     
+Genetic Correlation between SCZ and AN: 0.2391 (0.0302)
+     
+Genetic Correlation between BIP and BIP_noUKB: 1.0102 (0.057)
+     
+Genetic Correlation between BIP and MDD: 0.5003 (0.036)
+     
+Genetic Correlation between BIP and MDD_noUKB: 0.5043 (0.0369)
+     
+Genetic Correlation between BIP and ADHD: 0.253 (0.0329)
+     
+Genetic Correlation between BIP and AN: 0.2245 (0.0344)
+     
+Genetic Correlation between BIP_noUKB and MDD: 0.4791 (0.0482)
+     
+Genetic Correlation between BIP_noUKB and MDD_noUKB: 0.501 (0.046)
+     
+Genetic Correlation between BIP_noUKB and ADHD: 0.2715 (0.0401)
+     
+Genetic Correlation between BIP_noUKB and AN: 0.2027 (0.0449)
+     
+Genetic Correlation between MDD and MDD_noUKB: 1.0246 (0.0798)
+     
+Genetic Correlation between MDD and ADHD: 0.6407 (0.0461)
+     
+Genetic Correlation between MDD and AN: 0.3737 (0.0516)
+     
+Genetic Correlation between MDD_noUKB and ADHD: 0.6358 (0.0425)
+     
+Genetic Correlation between MDD_noUKB and AN: 0.4228 (0.0495)
+     
+Genetic Correlation between ADHD and AN: 0.1125 (0.0361)
+     
+     
+LDSC finished running at 2026-08-23 23:07:06.584574
+Running LDSC for all files took 1 minutes and 48 seconds
+     

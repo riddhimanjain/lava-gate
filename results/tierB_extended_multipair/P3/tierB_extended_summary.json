@@ -1,0 +1,21 @@
+{
+  "pair": "P3",
+  "group": "P3",
+  "traits": ["ASD", "ADHD"],
+  "n_selected": 119,
+  "n_usable_loci": 49,
+  "slope_full": 0.61190575,
+  "slope_full_lo": 0.59594015,
+  "slope_full_hi": 0.62787135,
+  "intercept_full": 0.13887343,
+  "slope_origgrid": 0.59975263,
+  "slope_origgrid_lo": 0.57568468,
+  "slope_origgrid_hi": 0.62382058,
+  "intercept_origgrid": 0.14511091,
+  "r2_full": 0.92818637,
+  "quad_term_p": 0.682226,
+  "per_locus_slope_min": 0.31968404,
+  "per_locus_slope_max": 0.91822653,
+  "mech_slope": 0.15918519,
+  "mech_p": 1.86776696e-14
+}

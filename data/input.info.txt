@@ -1,0 +1,3 @@
+phenotype	cases	controls	filename
+ASD	18381	27969	ASD_Grove2019.lava.sumstats.gz
+SCZ	53386	77258	SCZ_PGC3_EUR.lava.sumstats.gz

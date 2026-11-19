@@ -1,0 +1,2 @@
+"pair","traits","group","n_snps_common","blocks","processed","est_1","est_2","both_estimable","gate_pass","reported","pct_reported","paramlim_drops","bonferroni_survivors","ch2_loss_1","ch2_loss_2","weaker_trait","mean_rho","pct_positive","n_determinate","mean_ci_width","median_K"
+"P1","SCZ x BIP","P1",6029534,2495,2487,2369,2423,2305,1371,1369,54.87,2,98,4.7,2.6,"SCZ",0.2332,79.3,283,1.1537,295

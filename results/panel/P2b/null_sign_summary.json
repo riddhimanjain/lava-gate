@@ -1,0 +1,32 @@
+{
+  "observed": {
+    "n_loci": 545,
+    "n_positive": 279,
+    "n_determinate": 49,
+    "n_determinate_positive": 32
+  },
+  "r_e": 0.11322,
+  "traits": [
+    "MDD_noUKB",
+    "BIP_noUKB"
+  ],
+  "partA": {
+    "mean_p_positive": 0.5820357798165139,
+    "min_p_positive": 0.488,
+    "max_p_positive": 0.758,
+    "expected_n_positive": 317.20950000000005,
+    "observed_n_positive": 279,
+    "n_loci": 545,
+    "poisson_binomial_two_sided_p": 0.0010242855878460151,
+    "naive_binomial_null": 0.5
+  },
+  "partB": {
+    "null_mean_p_determinate": 0.06071192660550459,
+    "null_expected_n_determinate": 33.088,
+    "observed_n_determinate": 49,
+    "poisson_binomial_two_sided_p_determinate": 0.006697836760038541,
+    "null_p_positive_given_determinate": 0.7121615087040619,
+    "observed_n_determinate_positive": 32,
+    "direction_test_p": 5.975116155339134e-08
+  }
+}

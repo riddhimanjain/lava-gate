@@ -1,0 +1,23 @@
+{
+  "n_selected": 119,
+  "n_usable": 46,
+  "n_channel1": 0,
+  "n_channel2": 73,
+  "survivorship_loss_pct": 61.34453782,
+  "slope_full": 0.62364073,
+  "slope_full_lo": 0.61018256,
+  "slope_full_hi": 0.6370989,
+  "intercept_full": 0.01817326,
+  "slope_origgrid": 0.6202492,
+  "slope_origgrid_lo": 0.5912189,
+  "slope_origgrid_hi": 0.6492795,
+  "intercept_origgrid": 0.0202964,
+  "r2_full": 0.95269546,
+  "quad_term_p": 0.93644806,
+  "per_locus_slope_min": 0.37142438,
+  "per_locus_slope_max": 0.97093452,
+  "mech_slope": 0.17841341,
+  "mech_p": 7.6551251e-16,
+  "published_slope": 0.5512,
+  "published_in_extended_CI": false
+}

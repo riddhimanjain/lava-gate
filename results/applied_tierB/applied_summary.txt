@@ -1,0 +1,187 @@
+APPLIED SUMMARY  ASD x SCZ
+Generated: 2026-08-17 17:46 
+
+=== A. DENOMINATOR AUDIT (settles the 'negative dependence' question) ===
+Processed loci                          : 2400 
+  ASD estimable (p_ASD not NA)          : 971 (40.5% of processed)
+  SCZ estimable (p_SCZ not NA)          : 2335 (97.3% of processed)
+  BOTH estimable                        : 906 (37.8% of processed)
+
+Pass rates on the CONDITIONAL denominator (as reported in attrition_audit.txt):
+  ASD  P<0.05 | estimable               : 0.105
+  SCZ  P<0.05 | estimable               : 0.681
+
+Pass rates on the COMMON denominator (all processed loci):
+  ASD  P<0.05 / all processed           : 0.0425
+  SCZ  P<0.05 / all processed           : 0.6621
+  product (independence prediction)     : 0.0281  -> 67.5 loci
+  OBSERVED joint                        : 0.0325  -> 78 loci
+
+On loci where BOTH traits are estimable:
+  ASD pass: 0.1026  SCZ pass: 0.7020  product: 0.0721  observed: 0.0861 
+
+  2x2 contingency (both-estimable loci):
+       SCZ
+ASD     FALSE TRUE
+  FALSE   255  558
+  TRUE     15   78
+
+  Fisher exact test for association between the two gates:
+
+	Fisher's Exact Test for Count Data
+
+data:  tab
+p-value = 0.001797
+alternative hypothesis: true odds ratio is not equal to 1
+95 percent confidence interval:
+ 1.323087 4.533388
+sample estimates:
+odds ratio 
+   2.37441 
+
+
+=== B. PHENOTYPE-DROPOUT (the fourth attrition mode) ===
+Processed but ASD dropped               : 1429 (59.5%)
+Processed but SCZ dropped               : 65 (2.7%)
+Which trait is dropped more often?      : ASD 
+
+=== C. THE APPLIED RESULT ( 78 reported loci) ===
+Mean   rho_hat                          : 0.2042
+Median rho_hat                          : 0.2423
+SD     rho_hat                          : 0.3376
+Range                                   : -0.5478 to 1.0000
+
+SIGN CONCORDANCE
+  negative (diametric direction)        : 21 (26.9%)
+  positive (convergent direction)       : 57 (73.1%)
+  binomial test vs 50/50                :
+
+	Exact binomial test
+
+data:  n_pos and n_rep
+number of successes = 57, number of trials = 78, p-value = 5.571e-05
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6183560 0.8249875
+sample estimates:
+probability of success 
+             0.7307692 
+
+
+SIGN DETERMINACY (does the 95% CI exclude zero?)
+  CI excludes zero                      : 10 (12.8% of 78)
+  CI spans zero (sign undetermined)     : 68 (87.2%)
+  mean CI width                         : 1.3646
+  median CI width                       : 1.3629
+  fraction wider than 1.0               : 0.859
+
+  Of the sign-determinate loci:
+    negative: 0   positive: 10 
+
+BIVARIATE SIGNIFICANCE
+  bivar P<0.05                          : 10 
+  bivar P<0.05/78 (Bonferroni)  :0
+
+=== D. THE KEY TEST ===
+REVISED 17 Aug 2026. This section originally reported ONLY the test in D1 and
+concluded from it that the data cannot separate diametric from null. That was
+wrong on two counts -- it never tested against the null, and it never tested
+DIRECTION. D2 and D3 below are the tests that were missing. The count of
+sign-determinate loci is RETIRED as non-discriminating; direction is the
+statistic that discriminates. See TASKS_EXECUTION_LOG.md Task 4 section D.
+
+--- D1. Determinacy RATE vs a true rho = -0.4 (retired: non-discriminating) ---
+Tier A (K=300) predicts 13.9% determinacy at a true rho of -0.4. But it also
+predicts 12.3% at +0.4 -- determinacy is nearly SYMMETRIC in the sign of rho,
+so this rate cannot tell the two hypotheses apart whatever it comes out at.
+
+  Expected sign-determinate loci if diametric were true: 10.8 of 78
+  Observed sign-determinate loci                      : 10 of 78
+
+  Binomial test, observed vs 13.9% expected under a true rho = -0.4:
+
+	Exact binomial test
+
+data:  sum(det) and n_rep
+number of successes = 10, number of trials = 78, p-value = 1
+alternative hypothesis: true probability of success is not equal to 0.139
+95 percent confidence interval:
+ 0.06322773 0.22316215
+sample estimates:
+probability of success 
+             0.1282051 
+
+
+  Read this as uninformative, NOT as support for a null. Agreement on the rate
+  while the SIGN is inverted (see D3) is evidence against diametric.
+
+--- D2. Determinacy rate vs the NULL (true rho = 0) ---
+Under a true rho of 0 a 95% interval excludes zero about 5% of the time. The
+original section never ran this comparison, so it reported 'indistinguishable
+from either' having tested only one side.
+
+
+	Exact binomial test
+
+data:  sum(det) and n_rep
+number of successes = 10, number of trials = 78, p-value = 0.005463
+alternative hypothesis: true probability of success is not equal to 0.05
+95 percent confidence interval:
+ 0.06322773 0.22316215
+sample estimates:
+probability of success 
+             0.1282051 
+
+
+--- D3. DIRECTION of the sign-determinate loci (the discriminating test) ---
+A diametric architecture predicts the determinate loci are predominantly
+NEGATIVE. A convergent one predicts positive. This is the test that separates
+them, and unlike the count it is not symmetric in rho.
+
+  sign-determinate and POSITIVE : 10 
+  sign-determinate and NEGATIVE : 0 
+
+  Binomial test on direction, vs a neutral 50/50 null:
+
+	Exact binomial test
+
+data:  n_det_pos and n_det_pos + n_det_neg
+number of successes = 10, number of trials = 10, p-value = 0.001953
+alternative hypothesis: true probability of success is not equal to 0.5
+95 percent confidence interval:
+ 0.6915029 1.0000000
+sample estimates:
+probability of success 
+                     1 
+
+
+CAVEAT, and it matters. Every determinate interval has rho_upper pinned at
+exactly 1.000 (boundary-truncated). The SIGN is determined; the MAGNITUDE is
+entirely unconstrained. Calling these loci determinate is technically correct
+and practically hollow, and the paper says so.
+
+=== E. ATTENUATION-CORRECTED MAGNITUDES ===
+Tier B pooled slope 0.5512 (95% CI 0.5138-0.5886) is the empirical
+attenuation factor. Dividing observed estimates by it gives:
+  mean rho_hat observed                 : 0.2042
+  mean rho_hat corrected (/0.5512)      : 0.3704
+  corrected, CI bounds of slope         : 0.3469 to 0.3974
+
+NOTE: correcting the point estimate does NOT narrow the interval. Interval
+width remains the binding constraint on any per-locus claim, not this.
+
+=== F. REQUIRED ASD SAMPLE SIZE ===
+theta = Omega/Sigma is the local signal-to-noise ratio, and Sigma scales as
+1/N, so theta is proportional to N. Current ASD N = 46,350.
+
+Median K = 267.5 -> chi-square 95% critical value = 306.6
+
+Solving for the multiple m of current N at which ASD's gate pass rate
+matches SCZ's current rate:
+  implied ASD noncentrality lambda      : 8.86
+  implied SCZ noncentrality lambda      : 52.53
+  ratio (required N multiple)           : 5.93
+  => required ASD N                     : 274936
+
+CAVEAT: this assumes local h2 per block is comparable between the two traits,
+which it is not exactly. Treat as an order-of-magnitude figure and say so.

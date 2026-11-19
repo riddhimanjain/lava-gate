@@ -1,0 +1,3 @@
+"pair","traits","group","n_snps_common","blocks","processed","est_1","est_2","both_estimable","gate_pass","reported","pct_reported","paramlim_drops","bonferroni_survivors","ch2_loss_1","ch2_loss_2","weaker_trait","mean_rho","pct_positive","n_determinate","mean_ci_width","median_K"
+"P2a","MDD x BIP","P2",5927825,2495,2483,2153,2405,2082,817,816,32.71,1,20,13.3,3.1,"MDD",0.0156,51.8,62,1.2796,290
+"P2b","MDD_noUKB x BIP_noUKB","P2",5927825,2495,2483,1848,2434,1810,547,545,21.84,2,8,25.6,2,"MDD_noUKB",0.0151,51.2,49,1.2567,290

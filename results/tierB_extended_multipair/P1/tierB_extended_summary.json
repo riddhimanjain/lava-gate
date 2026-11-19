@@ -1,0 +1,21 @@
+{
+  "pair": "P1",
+  "group": "P1",
+  "traits": ["SCZ", "BIP"],
+  "n_selected": 120,
+  "n_usable_loci": 111,
+  "slope_full": 0.90783324,
+  "slope_full_lo": 0.90174754,
+  "slope_full_hi": 0.91391894,
+  "intercept_full": 0.02834358,
+  "slope_origgrid": 0.91157478,
+  "slope_origgrid_lo": 0.90352307,
+  "slope_origgrid_hi": 0.91962649,
+  "intercept_origgrid": 0.02857543,
+  "r2_full": 0.98849916,
+  "quad_term_p": 0.0040811,
+  "per_locus_slope_min": 0.69514954,
+  "per_locus_slope_max": 1.01560781,
+  "mech_slope": 0.13358651,
+  "mech_p": 1.88082205e-51
+}
